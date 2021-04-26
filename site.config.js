@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Jinseok Moon',
-  domain: 'koesnij.it',
+  domain: 'koesnij.vercel.app',
   author: 'Jinseok Moon',
 
   // open graph metadata (optional)
