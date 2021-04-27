@@ -12,7 +12,7 @@ module.exports = {
   author: 'Jinseok Moon',
 
   // open graph metadata (optional)
-  description: '',
+  description: 'Jinseok Moon의 개발 블로그입니다.',
   socialImageTitle: 'Jinseok Moon',
   socialImageSubtitle: 'Hello World! 👋',
 
@@ -30,7 +30,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
+  utterancesGitHubRepo: 'koesnij/blog',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
