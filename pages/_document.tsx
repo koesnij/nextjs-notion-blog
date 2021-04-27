@@ -8,6 +8,10 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
+            <link
+              href='//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css'
+              rel='stylesheet'
+            />
             <link rel='shortcut icon' href='/favicon.png' />
 
             <link
