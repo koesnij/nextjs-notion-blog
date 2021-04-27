@@ -6,7 +6,7 @@
 }
 
 .index-page .notion-page-icon-wrapper {
-  display: flex;
+  display: flex !important;
 }
 
 .index-page .notion-collection-card:hover {
