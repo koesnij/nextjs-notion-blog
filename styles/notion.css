@@ -162,23 +162,24 @@
   display: block;
   text-align: left;
 }
+@media only screen and (max-width: 400px) {
+  .notion-title {
+    font-size: 2em;
+  }
+}
 
 .notion-collection-column-title {
   /* display: none !important; */
 }
 
 .notion-collection-row-property .notion-property {
-  display: flex;
+  /* display: flex; */
   justify-content: left;
-}
-
-.notion-property-multi_select {
-  column-gap: 6px;
 }
 
 .notion-property-multi_select-item {
   padding: 10px;
-  margin: 0;
+  margin: 0 6px 0 0;
 }
 
 .notion-collection-row-value {
@@ -214,7 +215,7 @@
 }
 
 .notion-link:hover {
-  border-width: 3px;
+  border-width: 0 0 3px 0;
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
 }

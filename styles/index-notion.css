@@ -33,13 +33,17 @@
   border-radius: 5px;
 }
 
+.dark-mode .index-page .notion-list-item-property .notion-property-date {
+  background-color: #444;
+}
+
 /* common */
 .notion-page .notion-page-icon-wrapper {
   display: block;
 }
 
-.notion-header .notion-search-button {
-  padding-right: 30px;
+.notion-header .button.notion-search-button {
+  padding-right: 10px;
   margin-right: 10px;
 }
 
