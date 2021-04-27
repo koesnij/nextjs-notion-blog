@@ -1,3 +1,5 @@
+import 'styles/index-notion.css'
+
 // global styles shared across the entire site
 import 'styles/global.css'
 

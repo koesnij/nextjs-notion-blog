@@ -1,0 +1,62 @@
+@import url('//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css');
+
+/* index page */
+.index-page .notion-title {
+  text-align: center;
+}
+
+.index-page .notion-page-icon-wrapper {
+  display: flex;
+}
+
+.index-page .notion-collection-card:hover {
+  transition: all 0.2s ease-in-out;
+  overflow: visible !important;
+  transform: scale(1.01);
+}
+
+.index-page .notion-collection-card-body {
+  padding-bottom: 8px;
+}
+
+.index-page .notion-page-title-text {
+  font-size: 15px;
+}
+
+.index-page .notion-list-item-property {
+  display: flex;
+}
+
+.index-page .notion-list-item-property .notion-property-date {
+  background-color: #eee;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+/* common */
+.notion-page .notion-page-icon-wrapper {
+  display: block;
+}
+
+.notion-header .notion-search-button {
+  padding-right: 30px;
+  margin-right: 10px;
+}
+
+.notion-page .notion-code > code {
+  font-family: 'D2Coding ligature', monospace;
+  padding: 0;
+}
+
+.notion-page code.notion-inline-code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 4px;
+}
+
+.dark-mode .notion-page code.notion-inline-code {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+ol.notion-list {
+  padding-inline-start: 1.7em;
+}
