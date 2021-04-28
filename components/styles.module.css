@@ -48,21 +48,34 @@
   max-width: 1200px;
   margin: auto auto 0;
   padding: 8px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid var(--fg-color-0);
+  margin-top: 30px;
 }
 
 .copyright {
   font-size: 80%;
-  padding: 0.5em;
+  font-family: 'D2Coding', monospace;
+  /* padding: 0.5em; */
 }
 
 .settings,
 .social {
   user-select: none;
+}
+
+.social {
+  width: 176px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 566px) {
+  .social {
+    text-align: center;
+  }
 }
 
 .settings a,

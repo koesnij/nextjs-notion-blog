@@ -3,6 +3,7 @@
 /* index page */
 .index-page .notion-title {
   text-align: center;
+  margin-top: -30px;
 }
 
 .index-page .notion-page-icon-wrapper {
@@ -16,7 +17,12 @@
 }
 
 .index-page .notion-collection-card-body {
-  padding-bottom: 8px;
+  padding-bottom: 4px;
+}
+.index-page .notion-collection-card-body .notion-property-date {
+  text-align: right;
+  display: block;
+  margin-top: -4px;
 }
 
 .index-page .notion-page-title-text {
@@ -38,6 +44,10 @@
 }
 
 /* common */
+body {
+  background-color: var(--bg-color);
+}
+
 .notion-page .notion-page-icon-wrapper {
   display: block;
 }
