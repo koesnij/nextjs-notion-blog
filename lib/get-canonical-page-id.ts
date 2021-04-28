@@ -22,14 +22,18 @@ const getCanonicalPageIdImpl = (
 
     try {
       // get slug property
-      slug = block.properties['~rd{'][0][0]
+      if (block.properties['^SHh']) {
+        slug = block.properties['^SHh'][0][0]
+      } else {
+        slug = block.properties['@_a]'][0][0]
+      }
     } catch (err) {
       // get title
       slug = normalizeTitle(getBlockTitle(block, recordMap))
     }
     if (slug) {
       // if (uuid) {
-      //   // return `${slug}-${id}`
+      // return `${slug}-${id}`
       // } else {
       return slug
       // }
