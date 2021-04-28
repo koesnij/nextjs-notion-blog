@@ -28,11 +28,11 @@ const getCanonicalPageIdImpl = (
       slug = normalizeTitle(getBlockTitle(block, recordMap))
     }
     if (slug) {
-      if (uuid) {
-        return `${slug}-${id}`
-      } else {
-        return slug
-      }
+      // if (uuid) {
+      //   // return `${slug}-${id}`
+      // } else {
+      return slug
+      // }
     }
   }
 
