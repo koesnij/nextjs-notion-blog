@@ -19,14 +19,59 @@
 .index-page .notion-collection-card-body {
   padding-bottom: 4px;
 }
+
 .index-page .notion-collection-card-body .notion-property-date {
   text-align: right;
   display: block;
   margin-top: -4px;
 }
 
-.index-page .notion-page-title-text {
-  font-size: 15px;
+/* notion-list-item */
+.index-page .notion-list-item {
+}
+
+/* notion-list-item-title */
+.index-page .notion-list-item .notion-list-item-title {
+  flex: 1;
+}
+.index-page .notion-list-item .notion-list-item-title .notion-page-title-icon {
+  margin: 2px 4px 0 0;
+  min-width: 22px;
+}
+.index-page .notion-list-item .notion-list-item-title .notion-page-link {
+}
+.index-page .notion-list-item .notion-list-item-title .notion-page-title {
+}
+.index-page .notion-list-item .notion-list-item-title .notion-page-title-text {
+  font-size: 13px;
+}
+@media only screen and (max-width: 370px) {
+  .index-page
+    .notion-list-item
+    .notion-list-item-title
+    .notion-page-title-text {
+    max-width: 220px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .index-page
+    .notion-list-item
+    .notion-list-item-title
+    .notion-page-title-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .index-page
+    .notion-list-item
+    .notion-list-item-title
+    .notion-page-title-text {
+    max-width: 150px;
+  }
+}
+
+/* notion-list-item-body */
+.index-page .notion-list-item .notion-list-item-body {
 }
 
 .index-page .notion-list-item-property {
