@@ -20,12 +20,16 @@ const getCanonicalPageIdImpl = (
   if (block) {
     let slug
 
+    console.log(block.properties)
+
     try {
       // get slug property
       if (block.properties['^SHh']) {
         slug = block.properties['^SHh'][0][0]
-      } else {
+      } else if (block.properties['@_a]']) {
         slug = block.properties['@_a]'][0][0]
+      } else {
+        slug = block.properties['O=ij'][0][0]
       }
     } catch (err) {
       // get title
